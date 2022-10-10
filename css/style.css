@@ -12,7 +12,7 @@ body{
 
 /* header */
 header{
-    height: 75px;
+    height: 50px;
     width: 100%;
     background-color: white;
     position: fixed;
@@ -20,21 +20,26 @@ header{
     top: 0;
 }
 
-.header-container{
-    margin: 0;
-    padding: 20px;
-}
+/* .header-container{
+    margin: 0 auto;
+    height: 50px;
+} */
 
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    vertical-align: middle;
 }
 
 
 /* Main */
 .main-container{
     width: 100%;
-    padding-top: 75px;
+    padding-top: 50px;
     top: 0;
 }
 
