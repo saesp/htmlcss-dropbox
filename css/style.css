@@ -31,20 +31,66 @@ nav{
 }
 
 
-/* main */
+/* Main */
 .main-container{
     width: 100%;
     padding-top: 75px;
     top: 0;
 }
 
+/* main 1 */
 .main-part-1{
-    height: 400px;
+    height: 440px;
     width: 100%;
     background-color:rgb(127, 180, 255);
-    
 }
 
+.title-intro-main{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+main h1{
+    font-size: 40px;
+}
+
+.intro-main{
+    display: flex;
+    margin-top: 25px;
+}
+
+.main-part-1 img{
+    width: 600px;
+}
+
+.p-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.p-main p{
+    margin-bottom: 15px;
+}
+.p-main button{
+    margin-bottom: 15px;
+}
+.p-main span{
+    margin-bottom: 15px;
+}
+
+button{
+    border: 0;
+    padding: 7px;
+}
+
+.button-blue{
+    background-color: blue;
+    color: white;
+}
+
+
+/* main 2 */
 .main-part-2{
     height: 500px;
     width: 100%;
@@ -96,16 +142,16 @@ footer{
     padding-top: 60px;
 }
 
-.foot-part1{
+.foot-part-1{
     display: flex;
     justify-content: space-evenly;
 }
 
-.foot-part1 h4{
+.foot-part-1 h4{
     padding-bottom: 10px;
 }
 
-.foot-part1 a{
+.foot-part-1 a{
     display: block;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.521);
