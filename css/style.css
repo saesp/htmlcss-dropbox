@@ -10,6 +10,16 @@ body{
     font-size: 14px;
 }
 
+button{
+    border: 0;
+    padding: 7px;
+}
+
+.button-blue{
+    background-color: blue;
+    color: white;
+}
+
 /* header */
 header{
     height: 50px;
@@ -42,6 +52,7 @@ nav img{
     padding-top: 50px;
     top: 0;
 }
+
 
 /* main 1 */
 .main-part-1{
@@ -84,24 +95,98 @@ main h1{
     margin-bottom: 15px;
 }
 
-button{
-    border: 0;
-    padding: 7px;
-}
-
-.button-blue{
-    background-color: blue;
-    color: white;
-}
 
 
 /* main 2 */
 .main-part-2{
-    height: 500px;
+    height: 1250px;
     width: 100%;
     background-color: blueviolet;
+    margin: auto;
+    background-color: white;
 }
 
+.cards-main{
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.tab-main{
+    display: flex;
+    justify-content: center;
+}
+.title-main-2{
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.card{
+    width: calc(100% / 3);
+    background-color: white;
+    border: 1px solid gray;
+    margin: auto 20px;
+}
+#card1{
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+}
+#card2{
+    padding: 25px 15px 75px;
+}
+#card2 h3{
+    margin-bottom: 12.5px;
+    font-size: 22.5px;
+}
+#card2 > strong{
+    display: inline-block;
+    font-size: 12px;
+}
+#card2 > span{
+    margin: 10px auto 30px;
+}
+
+#card2 span{
+    display: block;
+}
+.content-card2 span{
+    padding-bottom: 10px;
+}
+.button-card{
+    margin: 30px auto 20px;
+}
+.content-card2 h4{
+    margin: 50px auto 20px;
+}
+
+.card-end{
+    width: 95.5%;
+    border: 1px solid gray;
+    margin: 50px auto 100px;
+}
+
+.card1-end{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 8px;
+}
+.card2-end{
+    padding: 25px 20px 30px;
+}
+.content-card2-end{
+    display: flex;
+    justify-content: space-between;
+}
+.content-card2-end h3{
+    margin-bottom: 12.5px;
+    font-size: 22.5px;
+}
+.content-card2-end p{
+    margin: 40px auto 0;
+}
+
+
+/* main 3 */
 .main-part-3{
     height: 200px;
     width: 100%;
