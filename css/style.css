@@ -263,11 +263,86 @@ main h1{
 
 /* main 5 */
 .main-part-5{
-    height: 300px;
+    height: 490.93px;
     width: 100%;
     background-color: brown;
 }
 
+.content-main5{
+    display: flex;
+}
+.content-main5 img{
+    width: 130px;
+}
+.block1{
+    position: relative;
+    width: calc(100% / 3);
+    height: 490.93px;
+}
+.block1 div{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    position: absolute;
+}
+.block1 .img1{
+    background-color:aqua;
+    top: 0;
+    left: 0;
+}
+.block1 .img2{
+    background-color:darkmagenta;
+    top: 0;
+    right: 0%;
+}
+.block1 .img3{
+    background-color: skyblue;
+    bottom: 0;
+    left: 0;
+}
+.block1 .img4{
+    background-color: orangered;
+    bottom: 0;
+    right: 0;
+}
+
+.block2{
+    width: calc(100% / 3);
+    height: 490.93px;
+    background-color: lightgray;
+}
+
+.block3{
+    position: relative;
+    width: calc(100% / 3);
+    height: 490.93px;
+}
+.block3 div{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    position: absolute;
+}
+.block3 .img1{
+    background-color:red;
+    top: 0;
+    left: 0;
+}
+.block3 .img2{
+    background-color:rgb(118, 183, 214);
+    top: 0;
+    right: 0%;
+}
+.block3 .img3{
+    background-color: blue;
+    bottom: 0;
+    left: 0;
+}
+.block3 .img4{
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+}
+
+/* main 6 */
 .main-part-6{
     height: 190px;
     width: 100%;
