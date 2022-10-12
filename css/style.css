@@ -72,6 +72,8 @@ nav img{
 
 main h1{
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    width: 800px;
 }
 
 .intro-main{
@@ -95,14 +97,18 @@ main h1{
     margin-bottom: 15px;
 }
 .p-main span{
-    margin-bottom: 15px;
+    margin-bottom: 40px;
+}
+.p-main a{
+    font-size: 30px;
+    color: black;
 }
 
 
 
 /* main 2 */
 .main-part-2{
-    height: 1050px;
+    height: 1200px;
     width: 100%;
     background-color: blueviolet;
     margin: auto;
@@ -127,6 +133,7 @@ main h1{
 }
 .card{
     width: calc(100% / 3);
+    height: 650px;
     background-color: white;
     border: 1px solid gray;
     margin: auto 20px;
@@ -168,7 +175,7 @@ main h1{
 .card-end{
     width: 95.5%;
     border: 1px solid gray;
-    margin: 50px auto 100px;
+    margin: 50px auto 10px;
 }
 
 .card1-end{
@@ -194,7 +201,7 @@ main h1{
 
 /* main 3 */
 .main-part-3{
-    height: 400px;
+    height: 450px;
     width: 100%;
     background-color: white;
 }
@@ -204,9 +211,8 @@ main h1{
 }
 .content-main3{
     display: flex;
-    width: 50%;
+    width: 841.9px;
     margin: auto;
-    padding: 50px;
 }
 .text-main3{
     margin: 40px auto auto 40px;
@@ -229,8 +235,11 @@ main h1{
     background-color: white;
 }
 .content-main4{
-    width: 50%;
+    width: 881.9px;
     margin: auto;
+}
+.title1-main4{
+    padding-bottom: 30px;
 }
 .row1-main4{
     display: flex;
@@ -253,8 +262,9 @@ main h1{
     font-size: 20px;
 }
 .title2-main4{
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 25px;
+    width: 450px;
 }
 .content-main4 a{
     margin-left: 20px;
@@ -365,18 +375,21 @@ main h1{
 .main-part-6{
     height: 190px;
     width: 100%;
-    background-color: rgb(87, 174, 214);
+    background-color: rgb(151, 197, 211);
+    display: flex;
 }
 
 .content-main6{
-    width: 50%;
+    width: 841.9px;
     display: flex;
     margin: auto;
-    padding: 70px;
+    /* padding: 70px; */
     justify-content: space-between;
+    /* align-items: center; */
 }
 .content-main6 h3{
     width: 250px;
+    font-size: 20px;
     /* padding-right: 50px; */
 }
 
@@ -389,7 +402,7 @@ main h1{
 }
 .content-main7{
     margin: auto;
-    width: 35%;
+    width: 841.9px;
     padding: 75px 0;
 }
 .content-main7 h3{
@@ -397,30 +410,38 @@ main h1{
     font-size: 20px;
 }
 .question-main7{
-    border-bottom: 1px solid lightgray;
-    border-top: 1px solid lightgray;
     padding: 15px 0;
     font-size: 10px;
+}
+.quest1{
+    border-top: 1px solid lightgray;
+}
+.quest2{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.quest3{
+    border-bottom: 1px solid lightgray;
 }
 
 
 /* footer */
 footer{
-    height: 350px;
+    height: 430px;
     width: 100%;
     background-color: black;
 }
 
 .footer-container{
     color: white;
-    width: 75%;
+    width: 841.9px;
     margin: auto;
     padding-top: 60px;
 }
 
 .foot-part-1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .foot-part-1 h4{
@@ -434,3 +455,11 @@ footer{
     margin: 10px auto;
 }
 
+.foot-part-2{
+    color: gray;
+}
+.hr-foot{
+    width: 100px;
+    margin: 60px 0 40px 0;
+    border-bottom: 2px solid gray;
+}
